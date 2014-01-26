@@ -1,5 +1,8 @@
+blog_fancy:
+    path:			/blog/fancy
+    defaults:	{ _controller: AcmeBlogBundle:Blog:fancy }
 blog:
-    path:  /blog/{page}
+    path:			/blog/{page}
     defaults: { _controller: AcmeBlogBundle:Blog:index, page: 1 }
     requirements:
         page:  \d+
@@ -10,6 +13,3 @@ blog_show:
 blog_redirect:
     path:			/redirect
     defaults:	{ _controller: AcmeBlogBundle:Blog:redirect }
-blog_fancy:
-    path:			/fancy
-    defaults:	{ _controller: AcmeBlogBundle:Blog:fancy }
