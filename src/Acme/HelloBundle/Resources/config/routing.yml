@@ -1,0 +1,9 @@
+acme_hello_homepage:
+    pattern:  /hello
+    defaults: { _controller: AcmeHelloBundle:Hello:index }
+acme_hello_redirect:
+    pattern:  /hello/redirect
+    defaults: { _controller: AcmeHelloBundle:Hello:redirect }
+acme_hello_fancy:
+    pattern:  /hello/fancy
+    defaults: { _controller: AcmeHelloBundle:Hello:fancy }

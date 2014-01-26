@@ -1,0 +1,9 @@
+{# Blog index template #}
+Blog fancy {{ slug }}
+<a href="{{ path('blog_show', {'slug': 'my-blog-post'}) }}">
+	Read this blog post.
+</a>
+Or
+<a href="{{ path('blog', {'page': '2'}) }}">
+	Read this blog post.
+</a>
