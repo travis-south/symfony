@@ -1,0 +1,7 @@
+parameters:
+#    acme_propel.example.class: Acme\PropelBundle\Example
+
+services:
+#    acme_propel.example:
+#        class: %acme_propel.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

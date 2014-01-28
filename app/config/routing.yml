@@ -1,3 +1,11 @@
+acme_propel:
+    resource: "@AcmePropelBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_store:
+    resource: "@AcmeStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
 acme_blog:
     resource: "@AcmeBlogBundle/Resources/config/routing.yml"
     prefix:   /
@@ -13,4 +21,3 @@ acme_blog:
 acme_blog:
     resource: "@AcmeBlogBundle/Resources/config/routing.yml"
     prefix:   /
-

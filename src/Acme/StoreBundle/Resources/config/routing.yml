@@ -1,0 +1,18 @@
+acme_store_homepage:
+    pattern:  /default-store/{name}
+    defaults: { _controller: AcmeStoreBundle:Default:index, name: default-store }
+store_create:
+    path:			/store/create
+    defaults:	{ _controller: AcmeStoreBundle:Default:create }
+store_show:
+    path:			/store/show/{id}
+    defaults:	{ _controller: AcmeStoreBundle:Default:show, id: 1 }
+store_show_product_price:
+    path:			/store/price/{price}
+    defaults:	{ _controller: AcmeStoreBundle:Default:showProductPrice, price: 19.99 }
+store_use_repo:
+    path:			/store/use-repo
+    defaults:	{ _controller: AcmeStoreBundle:Default:useRepo }
+store_create_product:
+    path:			/store/create-product
+    defaults: { _controller: AcmeStoreBundle:Default:createProduct }
