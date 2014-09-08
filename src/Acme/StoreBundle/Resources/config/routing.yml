@@ -16,3 +16,6 @@ store_use_repo:
 store_create_product:
     path:			/store/create-product
     defaults: { _controller: AcmeStoreBundle:Default:createProduct }
+store_propel_index:
+    path:			/store/propel/{name}
+    defaults:	{ _controller: AcmeStoreBundle:StorePropel:index }
