@@ -24,7 +24,7 @@ require_once dirname(__FILE__) . '/../GitTasks/GitTestsHelper.php';
 
 /**
  * @author Michiel Rook <mrook@php.net>
- * @version $Id: f744ece5eb4db768ef9fdaaee820db6697cadf63 $
+ * @version $Id$
  * @package phing.tasks.ext
  */
 abstract class AbstractSvnTaskTest extends BuildFileTest { 

@@ -36,7 +36,7 @@ require_once 'phing/BuildListener.php';
  * </code>
  * 
  * @author    Hans Lellelid <hans@xmpl.org>
- * @version   $Id: b50b4c71a28ca859af1301f9b3eab3d6b90e2673 $
+ * @version   $Id$
  * @see       BuildEvent
  * @package   phing.listener
  */

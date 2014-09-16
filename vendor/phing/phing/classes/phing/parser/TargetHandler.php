@@ -29,7 +29,7 @@ require_once 'phing/parser/AbstractHandler.php';
  *
  * @author    Andreas Aderhold <andi@binarycloud.com>
  * @copyright  2001,2002 THYRELL. All rights reserved
- * @version   $Id: ca2998ec789df98f289d64682e093fd577cf72ed $
+ * @version   $Id$
  * @package   phing.parser
  */
 class TargetHandler extends AbstractHandler {

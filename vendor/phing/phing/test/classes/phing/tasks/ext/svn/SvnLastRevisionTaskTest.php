@@ -24,7 +24,7 @@ require_once 'phing/tasks/ext/svn/AbstractSvnTaskTest.php';
 
 /**
  * @author Michiel Rook <mrook@php.net>
- * @version $Id: dde3daa7ee61be924bc5ff931920be761eda57de $
+ * @version $Id$
  * @package phing.tasks.ext
  */
 class SvnLastRevisionTaskTest extends AbstractSvnTaskTest { 

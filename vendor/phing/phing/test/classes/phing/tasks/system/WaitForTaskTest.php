@@ -25,7 +25,7 @@ require_once 'phing/BuildFileTest.php';
  * Tests the WaitFor Task
  *
  * @author  Michiel Rook <mrook@php.net>
- * @version $Id: 211b56411feb1669bde6b9a74896bd2ad93a6552 $
+ * @version $Id$
  * @package phing.tasks.system
  */
 class WaitForTaskTest extends BuildFileTest

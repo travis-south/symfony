@@ -31,7 +31,7 @@ include_once 'phing/parser/ProjectHandler.php';
  *
  * @author    Andreas Aderhold <andi@binarycloud.com>
  * @copyright 2001,2002 THYRELL. All rights reserved
- * @version   $Id: 87eb3e7ab07699fc1e320c38b8c26480a24b0016 $
+ * @version   $Id$
  * @package   phing.parser
  */
 class RootHandler extends AbstractHandler {

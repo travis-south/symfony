@@ -28,7 +28,7 @@ include_once 'phing/util/regexp/Regexp.php';
  *
  * @author Andreas Aderhold <andi@binarycloud.com>
  * @author Hans Lellelid <hans@velum.net>
- * @version $Id: 14be50f68cae9f142747714020b21d5c4816bc5f $
+ * @version $Id$
  * @package phing.mappers
  */
 class RegexpMapper implements FileNameMapper {

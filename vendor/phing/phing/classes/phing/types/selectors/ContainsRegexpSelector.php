@@ -29,7 +29,7 @@ include_once 'phing/types/RegularExpression.php';
  * 
  * @author    Hans Lellelid <hans@xmpl.org> (Phing)
  * @author    Bruce Atherton <bruce@callenish.com> (Ant)
- * @version   $Id: 4d76ea894ce69f9a15386d64eb57c26bced0ba40 $
+ * @version   $Id$
  * @package   phing.types.selectors
  */
 class ContainsRegexpSelector extends BaseExtendSelector {

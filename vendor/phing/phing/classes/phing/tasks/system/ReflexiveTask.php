@@ -43,7 +43,7 @@ require_once 'phing/Task.php';
  * </code>
  * 
  * @author    Hans Lellelid <hans@xmpl.org>
- * @version   $Id: e36076a0a71cec6ea6309990b317ad84ed928b49 $
+ * @version   $Id$
  * @package   phing.tasks.system
  */
 class ReflexiveTask extends Task {

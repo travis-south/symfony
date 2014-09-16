@@ -35,7 +35,7 @@
  *    
  * @author Charlie Killian <charlie@tizac.com>
  * @author Hans Lellelid <hans@xmpl.org>
- * @version $Id: bc979767c07b19eafeb3fc6f6efa938dd73bde18 $
+ * @version $Id$
  * @package phing.system.io
  */
 abstract class FileSystem {    

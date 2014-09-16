@@ -23,7 +23,7 @@
  * A factory class for regex functions.
  * @author Hans Lellelid <hans@xmpl.org>
  * @package  phing.util.regexp
- * @version $Id: 9a318a613cf993d187179ec8b1cce383d79accba $
+ * @version $Id$
  */
 class Regexp {
 

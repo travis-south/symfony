@@ -25,7 +25,7 @@ require_once 'phing/BuildFileTest.php';
  * Test cases for the pearpkg/pearpkg2 tasks
  *
  * @author  Michiel Rook <mrook@php.net>
- * @version $Id: bfb028514146a80c8e7a8ff1462d98e9d68dcd22 $
+ * @version $Id$
  * @package phing.tasks.ext
  */
 class PearPackageTest extends BuildFileTest { 

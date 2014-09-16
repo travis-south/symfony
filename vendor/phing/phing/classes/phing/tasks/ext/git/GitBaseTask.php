@@ -26,7 +26,7 @@ require_once 'phing/BuildException.php';
  * Base class for Git tasks
  *
  * @author Victor Farazdagi <simple.square@gmail.com>
- * @version $Id: 5f0232559b3f287cdf33112b77518f1b4698c9d8 $
+ * @version $Id$
  * @package phing.tasks.ext.git
  * @see VersionControl_Git
  * @since 2.4.3

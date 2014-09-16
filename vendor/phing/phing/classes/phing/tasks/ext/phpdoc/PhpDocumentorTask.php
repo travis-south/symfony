@@ -27,7 +27,7 @@ require_once 'phing/Task.php';
  *
  * @author Hans Lellelid <hans@xmpl.org>
  * @author Michiel Rook <mrook@php.net>
- * @version $Id: 0d5d03ba0499556fb210b95baeba574de2b869f2 $
+ * @version $Id$
  * @package phing.tasks.ext.phpdoc
  */ 
 class PhpDocumentorTask extends Task

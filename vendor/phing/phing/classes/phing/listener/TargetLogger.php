@@ -26,7 +26,7 @@ require_once 'phing/listener/AnsiColorLogger.php';
  *
  * @author    Patrick McAndrew <patrick@urg.name>
  * @copyright 2013. All rights reserved
- * @version   $Id: 8837d44b56abb162684e4caa3009dc6ed6040177 $
+ * @version   $Id$
  * @package   phing.listener
  */
 class TargetLogger extends AnsiColorLogger {

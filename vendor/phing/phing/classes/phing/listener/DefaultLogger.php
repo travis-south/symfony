@@ -30,7 +30,7 @@ include_once 'phing/BuildEvent.php';
  *
  * @author    Andreas Aderhold <andi@binarycloud.com>
  * @copyright 2001,2002 THYRELL. All rights reserved
- * @version   $Id: 9f48981bbf3c63ff866a830618c24cafd61cf050 $
+ * @version   $Id$
  * @see       BuildEvent
  * @package   phing.listener
  */

@@ -46,7 +46,7 @@ require_once 'phing/tasks/system/AdhocTask.php';
  * </target>
  *  
  * @author    Hans Lellelid <hans@xmpl.org>
- * @version   $Id: 2b45710f0f490e45b8d2c760b39e63658f6ee490 $
+ * @version   $Id$
  * @package   phing.tasks.system
  */
 class AdhocTaskdefTask extends AdhocTask

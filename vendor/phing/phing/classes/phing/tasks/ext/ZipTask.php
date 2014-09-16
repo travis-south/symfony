@@ -28,7 +28,7 @@ include_once 'phing/util/StringHelper.php';
  * Creates a zip archive using PHP ZipArchive extension/
  *
  * @author    Michiel Rook <mrook@php.net>
- * @version   $Id: 229ddb0dbbe62e6b16a9865eaae1a9100d41e910 $
+ * @version   $Id$
  * @package   phing.tasks.ext
  * @since     2.1.0
  */

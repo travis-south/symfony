@@ -25,7 +25,7 @@
  *
  * @author Hans Lellelid <hans@xmpl.org> (Phing)
  * @author Stefan Bodewig <stefan.bodewig@epost.de> (Ant)
- * @version $Id: c123fec00c1c3fe8b92ee659f09667d04e7efe4a $
+ * @version $Id$
  * @package phing.input
  */
 class InputRequest {

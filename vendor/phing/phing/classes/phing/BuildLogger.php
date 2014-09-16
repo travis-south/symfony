@@ -31,7 +31,7 @@ require_once 'phing/BuildListener.php';
  * Classes that implement a listener must implement this interface.
  *
  * @author    Hans Lellelid <hans@xmpl.org>
- * @version   $Id: bb50f9fed28e021eb3abb77d9f8b043ebbbad3f6 $
+ * @version   $Id$
  * @see       BuildEvent
  * @see       Project::addBuildListener()
  * @package   phing

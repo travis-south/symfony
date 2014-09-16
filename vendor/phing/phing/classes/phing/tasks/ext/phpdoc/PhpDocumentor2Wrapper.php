@@ -24,7 +24,7 @@
  * PHP 5.2 compatibility in the main task)
  *
  * @author    Michiel Rook <mrook@php.net>
- * @version   $Id: 21468fba5ffbacb5ab009610d9a17cc1a139a367 $
+ * @version   $Id$
  * @since     2.4.10
  * @package   phing.tasks.ext.phpdoc
  */

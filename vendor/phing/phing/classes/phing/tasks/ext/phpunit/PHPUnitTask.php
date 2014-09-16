@@ -28,7 +28,7 @@ require_once 'phing/util/LogWriter.php';
  * Runs PHPUnit tests.
  *
  * @author Michiel Rook <mrook@php.net>
- * @version $Id: fcfca24f298f6be4e181af56582d00be9539eaab $
+ * @version $Id$
  * @package phing.tasks.ext.phpunit
  * @see BatchTest
  * @since 2.1.0

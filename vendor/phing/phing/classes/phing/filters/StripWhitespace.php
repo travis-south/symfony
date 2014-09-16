@@ -1,7 +1,7 @@
 <?php
 
 /*
- *  $Id$
+ *  $Id $
  *
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
  * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
@@ -27,7 +27,7 @@ include_once 'phing/filters/ChainableReader.php';
  * Strips whitespace from [php] files using PHP stripwhitespace() method.
  * 
  * @author    Hans Lellelid, hans@velum.net
- * @version   $Id: d7b6113feead74de49ce89c0ec5b64836d4e2b31 $
+ * @version   $Id$
  * @see       FilterReader
  * @package   phing.filters
  * @todo -c use new PHP functions to perform this instead of regex.

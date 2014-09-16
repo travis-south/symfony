@@ -27,7 +27,7 @@ include_once 'phing/filters/ReplaceTokens.php'; // For class Token
  * Abstract class for TokenReaders.
  * 
  * @author    Manuel Holtgewe
- * @version   $Id: 5537cc9b0a8b723830e261c0ce978196ad03c555 $
+ * @version   $Id$
  * @package   phing.filters.util
  */
 abstract class TokenReader {

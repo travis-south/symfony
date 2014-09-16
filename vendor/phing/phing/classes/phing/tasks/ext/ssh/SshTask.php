@@ -26,7 +26,7 @@ require_once 'Ssh2MethodParam.php';
  * Execute commands on a remote host using ssh.
  *
  * @author    Johan Van den Brande <johan@vandenbrande.com>
- * @version   $Id: b3da56b5c4a474257b4e78542d47fdb2d9f26aa8 $
+ * @version   $Id$
  * @package   phing.tasks.ext
  */
 class SshTask extends Task {

@@ -27,7 +27,7 @@ require_once "phing/Task.php";
  * 
  * @author Andrei Serdeliuc
  * @extends Task
- * @version   $Id: 7d96a453b74edc40fdea85ba8befe6459334016d $
+ * @version   $Id$
  * @package   phing.tasks.ext
  */
 class ExportPropertiesTask extends Task

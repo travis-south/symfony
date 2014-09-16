@@ -26,7 +26,7 @@ require_once 'phing/tasks/ext/git/GitBaseTask.php';
  * Wrapper aroung git-pull
  *
  * @author Victor Farazdagi <simple.square@gmail.com>
- * @version $Id: b87593e0f31239277d8aee7440f0dfb7c5b89d30 $
+ * @version $Id$
  * @package phing.tasks.ext.git
  * @see VersionControl_Git
  * @since 2.4.3

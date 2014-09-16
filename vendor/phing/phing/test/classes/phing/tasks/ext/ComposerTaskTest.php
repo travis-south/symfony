@@ -25,7 +25,7 @@ require_once 'phing/tasks/ext/ComposerTask.php';
  * Test class for the ComposerTask.
  *
  * @author  Nuno Costa <nuno@francodacosta.com>
- * @version $Id: 172245dfa2a0a7ad17e3ec8b69f598c0a6d5b054 $
+ * @version $Id$
  * @package phing.tasks.ext
  */
 class ComposerTaskTest extends PHPUnit_Framework_TestCase

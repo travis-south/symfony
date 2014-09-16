@@ -25,7 +25,7 @@ require_once 'phing/BuildFileTest.php';
  * Tests the Exec Task
  *
  * @author  Michiel Rook <mrook@php.net>
- * @version $Id: af9759de0e9d7fccc5b58bb17f33cd1813600b43 $
+ * @version $Id$
  * @package phing.tasks.system
  */
 class ExecTaskTest extends BuildFileTest

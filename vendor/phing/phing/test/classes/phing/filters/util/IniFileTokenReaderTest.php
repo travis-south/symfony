@@ -25,7 +25,7 @@ require_once 'phing/BuildFileTest.php';
  * Tests the IniFileTokenReader class
  * 
  * @author  Michiel Rook <mrook@php.net>
- * @version $Id: c818fae1b3290874a5a903a3ee0caec65ca4db5b $
+ * @version $Id$
  * @package phing.tasks.ext
  */
 class IniFileTokenReaderTest extends BuildFileTest 

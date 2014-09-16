@@ -29,7 +29,7 @@ include_once 'phing/RuntimeConfigurable.php';
  *
  * @author    Andreas Aderhold <andi@binarycloud.com>
  * @copyright 2001,2002 THYRELL. All rights reserved
- * @version   $Id: 02ca39be55adc06cf8fd0fa4d3a6c6cc391ea604 $
+ * @version   $Id$
  * @see       Project#createTask()
  * @package   phing
  */

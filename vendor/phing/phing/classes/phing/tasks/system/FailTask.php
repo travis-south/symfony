@@ -27,7 +27,7 @@ require_once 'phing/Task.php';
  *
  * @author    Hans Lellelid <hans@xmpl.org> (Phing)
  * @author    Nico Seessle <nico@seessle.de> (Ant)
- * @version   $Id: 4cc939722b494e26bf46423b716ca9a9157255ca $
+ * @version   $Id$
  * @package   phing.tasks.system
  */
 class FailTask extends Task { 

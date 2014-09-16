@@ -26,7 +26,7 @@ require_once 'phing/types/FileSet.php';
  * Scans a list of files given by the fileset attribute, extracts valid test cases
  *
  * @author Michiel Rook <mrook@php.net>
- * @version $Id: 4067d915614ff7a864c31f19549bcf6a96c0f92d $
+ * @version $Id$
  * @package phing.tasks.ext.phpunit
  * @since 2.1.0
  */

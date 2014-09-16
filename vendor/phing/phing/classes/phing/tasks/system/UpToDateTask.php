@@ -34,7 +34,7 @@ include_once 'phing/mappers/MergeMapper.php';
  * @author    William Ferguson <williamf@mincom.com> (Ant)
  * @author    Hiroaki Nakamura <hnakamur@mc.neweb.ne.jp> (Ant)
  * @author    Stefan Bodewig <stefan.bodewig@epost.de> (Ant)
- * @version   $Id: 0941011292b768158652a316b80a9829705c9862 $
+ * @version   $Id$
  * @package   phing.tasks.system
  */
 class UpToDateTask extends Task implements Condition {
