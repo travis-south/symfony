@@ -213,8 +213,11 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+<<<<<<< HEAD
 /nbproject/private/
 /nbproject/
 
 #Symfony2 ignores
 app/cache/
+=======
+>>>>>>> 8f7845ffce0854c557fba63e20a872c064b20337

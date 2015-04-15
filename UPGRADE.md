@@ -79,7 +79,11 @@ a link cannot be generated):
 
     framework:
         router:
+<<<<<<< HEAD
             strict_requirements: "%kernel.debug%"
+=======
+            strict_requirements: %kernel.debug%
+>>>>>>> 8f7845ffce0854c557fba63e20a872c064b20337
 
 You can even disable the requirements check on production with `null` as you should
 know that the parameters for URL generation always pass the requirements, e.g. by
@@ -90,7 +94,11 @@ The `default_locale` parameter is now a setting of the main `framework`
 configuration (it was under the `framework.session` in 2.0):
 
     framework:
+<<<<<<< HEAD
         default_locale: "%locale%"
+=======
+        default_locale: %locale%
+>>>>>>> 8f7845ffce0854c557fba63e20a872c064b20337
 
 The `auto_start` setting under `framework.session` must be removed as it is
 not used anymore (the session is now always started on-demand). If

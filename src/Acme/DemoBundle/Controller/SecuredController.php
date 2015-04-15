@@ -7,7 +7,10 @@ use Symfony\Component\Security\Core\SecurityContext;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+<<<<<<< HEAD
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
+=======
+>>>>>>> 8f7845ffce0854c557fba63e20a872c064b20337
 
 /**
  * @Route("/demo/secured")
@@ -60,7 +63,10 @@ class SecuredController extends Controller
 
     /**
      * @Route("/hello/admin/{name}", name="_demo_secured_hello_admin")
+<<<<<<< HEAD
      * @Security("is_granted('ROLE_ADMIN')")
+=======
+>>>>>>> 8f7845ffce0854c557fba63e20a872c064b20337
      * @Template()
      */
     public function helloadminAction($name)

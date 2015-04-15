@@ -19,7 +19,12 @@ monolog:
             handler:      nested
         nested:
             type:  stream
+<<<<<<< HEAD
             path:  "%kernel.logs_dir%/%kernel.environment%.log"
             level: debug
         console:
             type:  console
+=======
+            path:  %kernel.logs_dir%/%kernel.environment%.log
+            level: debug
+>>>>>>> 8f7845ffce0854c557fba63e20a872c064b20337

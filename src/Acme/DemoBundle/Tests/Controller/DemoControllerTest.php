@@ -14,6 +14,7 @@ class DemoControllerTest extends WebTestCase
 
         $this->assertGreaterThan(0, $crawler->filter('html:contains("Hello Fabien")')->count());
     }
+<<<<<<< HEAD
 
     public function testSecureSection()
     {
@@ -42,4 +43,6 @@ class DemoControllerTest extends WebTestCase
         // check that the page is the right one
         $this->assertCount(1, $crawler->filter('h1.title:contains("secured for Admins only!")'));
     }
+=======
+>>>>>>> 8f7845ffce0854c557fba63e20a872c064b20337
 }

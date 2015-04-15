@@ -14,6 +14,7 @@ web_profiler:
 monolog:
     handlers:
         main:
+<<<<<<< HEAD
             type:   stream
             path:   "%kernel.logs_dir%/%kernel.environment%.log"
             level:  debug
@@ -28,6 +29,17 @@ monolog:
         #chromephp:
         #    type:   chromephp
         #    level:  info
+=======
+            type:  stream
+            path:  %kernel.logs_dir%/%kernel.environment%.log
+            level: debug
+        firephp:
+            type:  firephp
+            level: info
+        chromephp:
+            type:  chromephp
+            level: info
+>>>>>>> 8f7845ffce0854c557fba63e20a872c064b20337
 
 assetic:
     use_controller: true

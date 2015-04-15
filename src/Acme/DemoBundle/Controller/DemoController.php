@@ -4,7 +4,10 @@ namespace Acme\DemoBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\RedirectResponse;
+<<<<<<< HEAD
 use Symfony\Component\HttpFoundation\Request;
+=======
+>>>>>>> 8f7845ffce0854c557fba63e20a872c064b20337
 use Acme\DemoBundle\Form\ContactType;
 
 // these import the "@Route" and "@Template" annotations
@@ -35,6 +38,7 @@ class DemoController extends Controller
      * @Route("/contact", name="_demo_contact")
      * @Template()
      */
+<<<<<<< HEAD
     public function contactAction(Request $request)
     {
         $form = $this->createForm(new ContactType());
@@ -49,6 +53,24 @@ class DemoController extends Controller
             $request->getSession()->getFlashBag()->set('notice', 'Message sent!');
 
             return new RedirectResponse($this->generateUrl('_demo'));
+=======
+    public function contactAction()
+    {
+        $form = $this->get('form.factory')->create(new ContactType());
+
+        $request = $this->get('request');
+        if ($request->isMethod('POST')) {
+            $form->submit($request);
+            if ($form->isValid()) {
+                $mailer = $this->get('mailer');
+                // .. setup a message and send it
+                // http://symfony.com/doc/current/cookbook/email.html
+
+                $this->get('session')->getFlashBag()->set('notice', 'Message sent!');
+
+                return new RedirectResponse($this->generateUrl('_demo'));
+            }
+>>>>>>> 8f7845ffce0854c557fba63e20a872c064b20337
         }
 
         return array('form' => $form->createView());
